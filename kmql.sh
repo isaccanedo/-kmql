@@ -1,2 +1,2 @@
 #!/bin/bash
-exec java -cp "$0:$CLASSPATH" kmql.Kmql "$@"
+# exec java -cp "$0:$CLASSPATH" kmql.Kmql "$@"
