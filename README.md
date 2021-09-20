@@ -7,7 +7,7 @@ Gerenciamento Kafka com sQL
 
 ## The problem
 
-Kafka provides a bunch of commands to inspect a cluster's state such as `kafka-topics.sh`, `kafka-configs.sh`, `kafka-acls.sh`, and more. These scripts is a sufficient option when a human operator inspects relatively simpler information.
+O Kafka fornece vários comandos para inspecionar o estado de um cluster, como `kafka-topics.sh`, `kafka-configs.sh`, `kafka-acls.sh`, and more. These scripts is a sufficient option when a human operator inspects relatively simpler information.
 However when we want to 1. parse result output by a program or 2. query relatively complex information as some are shown in [Examples](https://github.com/kawamuray/kmql#query-examples), it becomes a mess of scripts that deals with non-machine friendly output formats and involving to execute multiple commands aggregating their results.
 Alternatively, you may use `AdminClient` but that always involves writing a Java program and compile it which is not swift enough to operate clusters reliably and efficiently.
 
