@@ -3,7 +3,7 @@ kmql
 
 Gerenciamento Kafka com sQL
 
-`kmql` is a command that allows you to query [Apache Kafka](https://kafka.apache.org/) cluster's metadata using SQL.
+`kmql` é um comando que permite a você consultar [Apache Kafka](https://kafka.apache.org/) metadados do cluster usando SQL.
 
 ## The problem
 
